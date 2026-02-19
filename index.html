@@ -9,6 +9,9 @@
 
     <h2>NOMBRE COMÚN: Dodo</h2>
 
+    <!-- Botón modo oscuro -->
+    <button onclick="toggleTheme()">Cambiar Tema</button>
+
     <img src="img/Dronte_dodo_Raphus_cucullatus.jpg" alt="Imagen de un dodo" width="300">
 
     <p><strong>NOMBRE CIENTÍFICO:</strong> Raphus cucullatus</p>
@@ -38,6 +41,14 @@
         <li><strong>Estado:</strong> Extinto desde aproximadamente 1681.</li>
     </ul>
 
+    <!-- Botón mostrar más información -->
+    <button onclick="mostrarInfo()">Mostrar más información</button>
+
+    <p id="infoExtra" style="display: none;">
+        El dodo no tenía depredadores naturales antes de la llegada de los humanos,
+        lo que explica su comportamiento confiado.
+    </p>
+
     <h3>Fuentes adicionales</h3>
     <p>
         <a href="https://es.wikipedia.org/wiki/Raphus_cucullatus" target="_blank">
@@ -45,6 +56,8 @@
         </a>
     </p>
 
+    <!-- Conexión con JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 </html>
